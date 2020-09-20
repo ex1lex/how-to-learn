@@ -8,8 +8,11 @@
   font-weight: normal;
   text-decoration: none;
   color: black;
+  opacity: 1;
+  transition: opacity 0.2s linear;
 }
 
 .feinman__link:hover {
   text-decoration: underline;
+  opacity: 0.5;
 }
